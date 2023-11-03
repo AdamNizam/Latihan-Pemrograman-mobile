@@ -53,7 +53,7 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:id="@+id/TinggiEditText"
+            android:id="@+id/tinggiEditText"
             android:layout_height="wrap_content"
             android:hint="Masukan Tinggi" />
     </com.google.android.material.textfield.TextInputLayout>
