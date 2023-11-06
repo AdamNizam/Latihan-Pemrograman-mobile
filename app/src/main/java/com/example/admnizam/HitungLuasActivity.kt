@@ -1,5 +1,6 @@
 package com.example.admnizam
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -22,6 +23,10 @@ class HitungLuasActivity : AppCompatActivity() {
             val hasil = panjang.toInt() * lebar.toInt() * tinggi.toInt()
             binding.hasilTextView.text = hasil.toString() + "m2"
 
+        }
+        binding.kembali.setOnClickListener {
+            val Kembali = Intent(this@HitungLuasActivity, HalamanLoginActivity::class.java)
+            startActivity(Kembali)
         }
 
 //        initKomponent()

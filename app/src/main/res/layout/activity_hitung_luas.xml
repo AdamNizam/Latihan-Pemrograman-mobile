@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="@color/design_default_color_primary_variant"
     android:orientation="vertical"
     tools:context=".HitungLuasActivity">
 
@@ -48,6 +49,7 @@
         style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:layout_marginStart="16dp"
         android:layout_marginEnd="16dp">
 
@@ -65,6 +67,15 @@
         android:layout_margin="16dp"
         android:text="Hitung" />
 
+    <Button
+        android:backgroundTint="#CE5A67"
+        android:id="@+id/kembali"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="kembali" />
+
+
     <TextView
         android:id="@+id/hasilTextView"
         android:layout_width="match_parent"
@@ -74,4 +85,5 @@
         android:text="0"
         android:textSize="38sp"
         android:textStyle="bold" />
+
 </LinearLayout>
